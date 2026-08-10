@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="sport,salle,salle de sport,spoert room,karate,full-contact,aerobic, gym,entrainement, soufle,kick-boxing ,full contact , kick boxing, box, boxing, fight"
+    />
+    <meta
+      name="description"
+      content="Top sport est une salle de sport établissement spécialisé dans l’enseignement et l’encadrement des arts martiaux et des sports de combat, notamment le Karaté, le Full-Contact et l’Aérobic."
+    />
+    <meta name="author" content="Oussama Koudoua" />
+    <title>Top sport - salle de sport</title>
+    <link rel="stylesheet" href="css\all.min.css" />
+    <script src="js\app.js" defer></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body class="dark:bg-[#0C104A]">
+    <section class="h-182 bg-image-hero">
+      <nav class="w-11/12 mx-auto pt-10 flex justify-between items-center">
+        <img
+          src="assets/images/logo.png"
+          alt=""
+          id="logo"
+          class="w-1/5 md:w-1/12"
+        />
+        <div class="md:w-1/2 md:flex gap-2">
+          <div
+            class="hidden md:h-20 md:w-2/3 md:bg-white md:rounded-xl md:flex md:justify-around md:items-center md:text-lg md:opacity-70 md:hover:opacity-100 md:duration-500"
+          >
+            <a href="#about" class="hover:underline">About us</a>
+            <a href="#activities" class="hover:underline">Activities</a>
+            <a href="#contact" class="hover:underline">Contact</a>
+          </div>
+
+          <button
+            class="hidden md:bg-blue-600 md:h-20 md:rounded-xl md:w-1/3 md:cursor-pointer md:opacity-70 md:hover:opacity-100 md:duration-500 md:text-white md:text-center md:flex md:justify-evenly md:items-center"
+          >
+            <i class="fa-brands fa-whatsapp fontLarger text-2xl"></i>
+            <h2 class="text-xl">Join us now</h2>
+          </button>
+        </div>
+        <div class="md:hidden">
+          <button
+            id="menu-btn"
+            type="button"
+            class="z-40 block hamburger focus:outline-none"
+          >
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+          </button>
+        </div>
+      </nav>
+
+      <div
+        id="menu"
+        class="absolute top-0 bottom-0 left-0 hidden flex-col self-end w-full min-h-screen py-1 pt-40 pl-12 space-y-3 text-lg text-black uppercase bg-white md:hidden"
+      >
+        <a href="#about" class="hover:underline">About us</a>
+        <a href="#activities" class="hover:underline">Activities</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </div>
+      <div class="mt-30 w-10/12 mx-auto md:ml-15 md:w-1/3 md:h-1/3">
+        <p class="text-white">
+          <span class="text-2xl md:text-5xl">PUSH YOUR LIMITS</span>
+          <br /><br />
+          <span class="">
+            Join the elite. Precision training, martial arts discipline, and
+            high-level physical conditioning in Marrakech. Discover our
+            activities
+          </span>
+        </p>
+        <button
+          class="bg-blue-600 text-white cursor-pointer rounded-2xl p-4 mt-11 md:px-3 md:py-2.5 md:text-2xl md:p-5 md:hover:bg-blue-900 md:duration-500"
+        >
+          Discover our activities
+          <i class="fa-solid fa-arrow-turn-up text-xl"></i>
+        </button>
+      </div>
+    </section>
+    <article id="about">
+      <div
+        class="flex flex-col gap-3 md:flex-row md:items-center md:justify-around md:mt-3"
+      >
+        <div
+          class="w-11/12 rounded-2xl bg-gray-500 h-80 mx-auto md:h-100 relative"
+          style="
+            background-image: url(assets/images/karate/karate-2.webp);
+            background-size: cover;
+          "
+        >
+          <div
+            class="absolute h-15 w-44 bg-blue-900 rounded-b-2xl text-white text-center p-2.5 text-2xl left-10 uppercase"
+          >
+            About us
+          </div>
+        </div>
+        <div
+          class="w-11/12 rounded-2xl bg-gray-100 dark:bg-blue-900 mx-auto p-3 md:h-100"
+        >
+          <p class="text-justify dark:text-white text-xl">
+            <span>
+              Founded in 2018 in the heart of Marrakech, Top Sport is much more
+              than just a sports club: it's a true academy dedicated to physical
+              and mental excellence and the values ​​of martial arts. Since its
+              inception, our mission has been to offer a modern, motivating, and
+              accessible training environment for everyone, where each member
+              can progress at their own pace while developing self-confidence,
+              discipline, and perseverance. Our expertise lies primarily in
+              Karate, Full Contact, and Aerobics. Guided by qualified and
+              passionate master instructors, our practitioners benefit from
+              personalized support tailored to their age, level, and goals.
+              Whether you're a beginner looking to discover martial arts, an
+              athlete wanting to improve your fitness, or a competitor preparing
+              for championships, our team is committed to helping you reach your
+              full potential.
+            </span>
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <section id="activities">
+      <div
+        class="w-11/12 relative h-14 mx-auto mt-4 border-t-2 border-blue-900 md:w-full"
+      >
+        <div
+          class="absolute h-full bg-blue-900 w-44 text-center p-2.5 text-2xl text-white left-10 uppercase rounded-b-2xl"
+        >
+          activities
+        </div>
+      </div>
+      <div
+        class="flex flex-col gap-5 p-3 md:flex-row md:justify-between md:items-center"
+      >
+        <!-- Card 1 -->
+        <div
+          class="flex flex-col gap-4 p-3 w-11/12 bg-gray-100 mx-auto rounded-2xl dark:bg-blue-900"
+        >
+          <img
+            src="assets/images/karate.jpg"
+            class="w-full mx-auto rounded-2xl"
+            alt=""
+          />
+          <p class="text-center font-bold text-2xl dark:text-gray-300">
+            KARATE
+          </p>
+          <button
+            class="p-4 rounded-2xl border-2 border-black bg-cyan-700 text-xl md:hover:bg-cyan-500 duration-500 cursor-pointer"
+          >
+            Discover more
+          </button>
+        </div>
+        <!-- Card 2 -->
+        <div
+          class="flex flex-col gap-4 p-3 w-11/12 bg-gray-100 mx-auto rounded-2xl dark:bg-blue-900"
+        >
+          <img
+            src="assets/images/fullContact.jpg"
+            class="w-full mx-auto rounded-2xl"
+            alt=""
+          />
+          <p class="text-center font-bold text-2xl dark:text-gray-300">
+            FULL CONTACT
+          </p>
+          <button
+            class="p-4 rounded-2xl border-2 border-black bg-cyan-700 text-xl md:hover:bg-cyan-500 duration-500 cursor-pointer"
+          >
+            Discover more
+          </button>
+        </div>
+        <!-- Card 3 -->
+        <div
+          class="flex flex-col gap-4 p-3 w-11/12 bg-gray-100 mx-auto rounded-2xl dark:bg-blue-900"
+        >
+          <img
+            src="assets/images/aerobic.jpg"
+            class="w-full mx-auto rounded-2xl"
+            alt=""
+          />
+          <p class="text-center font-bold text-2xl dark:text-gray-300">
+            AEROBIC
+          </p>
+          <button
+            class="p-4 rounded-2xl border-2 border-black bg-cyan-700 text-xl md:hover:bg-cyan-500 duration-500 cursor-pointer"
+          >
+            Discover more
+          </button>
+        </div>
+      </div>
+    </section>
+    <footer
+      id="contact"
+      class="w-11/12 mb-4 rounded-3xl h-96 md:h-60 mt-14 mx-auto pt-3 pl-3 shadow-xl shadow-blue-600"
+    >
+      <div
+        class="flex flex-col items-center w-11/12 mx-auto gap-4 md:flex-row md:justify-between"
+      >
+        <div class="flex flex-col items-center md:flex-row">
+          <img src="assets/images/logo.png" alt="" class="w-20 md:mr-5" />
+          <h4 class="text-center mt-3 dark:text-white">
+            Karate, Full Contact and Aerobics Academy in Marrakech
+          </h4>
+        </div>
+        <div
+          class="flex flex-col items-center w-full gap-4 mt-1.5 md:flex-row md:justify-evenly md:w-1/3"
+        >
+          <a href="#logo" class="flex flex-col items-center gap-2"
+            ><i class="fa-solid fa-house text-2xl text-blue-600"></i>
+            <h3 class="dark:text-white">Home</h3></a
+          >
+
+          <a
+            href="https://www.google.com/maps/place/El+Afak/@31.6388055,-8.1090478,17.88z/data=!4m6!3m5!1s0xdafe98ad083812b:0x7502e758d1fae7ea!8m2!3d31.642368!4d-8.1133767!16s%2Fg%2F11gzq4qdr?entry=ttu&g_ep=EgoyMDI2MDgwNS4xIKXMDSoASAFQAw%3D%3D"
+            class="flex flex-col items-center gap-2"
+            ><i class="fa-solid fa-location-dot text-2xl text-blue-600"></i>
+            <h3 class="dark:text-white">Morocco, Marrakesh, Afaq-1 138</h3></a
+          >
+        </div>
+      </div>
+      <hr class="w-11/12 mx-auto text-blue-600 mt-2 md:mt-8" />
+      <div
+        class="flex flex-col gap-6 mt-2 md:flex-row md:w-11/12 md:mx-auto md:justify-between md:mt-15 md:items-center"
+      >
+        <div
+          class="w-1/2 mx-auto justify-between flex text-3xl text-blue-600 md:mx-0 md:text-4xl md:w-1/5"
+        >
+          <a href="https://web.facebook.com/?_rdc=1&_rdr#"
+            ><i
+              class="fa-brands fa-facebook md:transform md:duration-500 md:hover:-translate-y-2 md:hover:scale-110"
+            ></i
+          ></a>
+          <a href="https://www.instagram.com/?hl=en"
+            ><i
+              class="fa-brands fa-instagram md:transform md:duration-500 md:hover:-translate-y-2 md:hover:scale-110"
+            ></i
+          ></a>
+          <a href="https://www.tiktok.com/en/"
+            ><i
+              class="fa-brands fa-tiktok md:transform md:duration-500 md:hover:-translate-y-2 md:hover:scale-110"
+            ></i
+          ></a>
+        </div>
+        <div class="text-center dark:text-white">
+          Copyright © 2026 | Top Sport.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

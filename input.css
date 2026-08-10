@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+.bg-image-hero {
+  background-image: url(assets/images/karate/karate-1.jpg);
+  background-size: cover;
+}
+
+.hamburger {
+  cursor: pointer;
+  width: 24px;
+  height: 24px;
+  transition: all 0.25s;
+  position: relative;
+}
+.hamb-top,
+.hamb-middle,
+.hamb-bottom {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  top: 0;
+  right: 0;
+  background: red;
+  transform: rotate(0);
+  transition: all 0.5s;
+}
+.hamb-middle {
+  transform: translateY(7px);
+}
+.hamb-bottom {
+  transform: translateY(14px);
+}
+.open {
+  transform: rotate(90deg);
+}
+.open .hamb-top {
+  transform: rotate(45deg) translateY(6px) translateX(6px);
+}
+.open .hamb-middle {
+  display: none;
+}
+.open .hamb-bottom {
+  transform: rotate(-45deg) translateY(6px) translateX(-6px);
+}
